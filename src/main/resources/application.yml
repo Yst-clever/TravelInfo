@@ -1,0 +1,9 @@
+# 决定访问的端口号
+server:
+  port: 8081
+
+#外部API配置清单
+#前端传暗号，后端根据暗号找真实地址
+#去github.com/public-apis/public-apis里面选，然后定义好
+#熟悉yml，然后key是暗号，value是你要找的网址
+external-api:
